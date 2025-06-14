@@ -1,0 +1,45 @@
+🔹 How to Push Local Folder to GitHub 🔹
+
+1️⃣ Open Your Project in VS Code
+   - Open Visual Studio Code.
+   - Open your project folder.
+
+2️⃣ Initialize Git Repository (If Not Already Done)
+   Open VS Code’s terminal (press Ctrl + `) and run:
+
+   git init
+   ✅ This converts your folder into a Git repository.
+
+3️⃣ Add All files to Staging
+
+   git add .
+   ✅ All files are now staged for commit.
+
+4️⃣ Commit Your Changes
+
+   git commit -m "Initial commit"
+   ✅ This saves your files in your local repository.
+
+5️⃣ Create a Repository on GitHub
+   - Go to https://github.com.
+   - Click + in the top-right corner.
+   - Select “New repository”.
+   - Name your repository.
+   - Choose visibility (Public or Private).
+   - Do not check “Add a README”.
+   - Click “Create repository”.
+
+6️⃣ Connect Local Repo to GitHub Repo
+
+   After creating your repository, you will see instructions to connect:
+
+   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+   git branch -M main
+   git push -u origin main
+
+   ✅ This adds a remote origin, sets main, and pushes your code.
+
+7️⃣ Confirm Push
+
+   ✅ Reload your GitHub repository’s page.
+   Your files should be there.
